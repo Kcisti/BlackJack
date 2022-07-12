@@ -1,0 +1,199 @@
+*{
+  font-family: "Inter", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size-adjust: none;
+}
+body{
+	background: #000000;
+}
+.log_head_title{
+  font-size: 115px;
+  text-align: center;
+	margin-top: 200px;
+	margin-bottom: 0px;
+	font-weight: 700;
+  text-transform: uppercase;
+	color: #FFFFFF;
+	text-shadow: 0 0 0 transparent,
+	0 0 10px #FF0000,
+	0 0 20px #FF0000,
+	0 0 40px #FF0000,
+	0 0 100px #FF0000,
+	0 0 200px #FF0000,
+	0 0 300px #FF0000,
+	0 0 500px #FF0000;
+	animation: animate 2s infinite alternate;
+}
+@keyframes animate {
+	40% {
+		opacity: 1;
+	}
+	42% {
+		opacity: 0.6;
+	}
+	43% {
+		opacity: 1;
+	}
+	45% {
+		opacity: 0.3;
+	}
+	46% {
+		opacity: 1;
+	}
+  48%{
+    opacity: 0.4;
+}}
+.log_head_subtitle{
+	margin-top: 10px;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FF0000;
+	opacity: 50%;
+	font-weight: 700;
+}
+
+.log_content{
+	width: 60%;
+}
+.log_content_input{
+  color: #D2D2D2;
+  width: 90%;
+  background: #303030;
+  font-size: 49px;
+  padding: 25px;
+  padding-left: 40px;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 15px;
+  outline: none;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.log_content_inputaccept{
+	color: #D2D2D2;
+  width: 100%;
+  background: #FF0000;
+  font-size: 44px;
+  padding: 25px;
+	text-align: center;
+  font-weight: 600;
+  border: 0px;
+	text-transform: uppercase;
+  outline: none;
+}
+.log_content_joiner{
+	color: #D2D2D2;
+  width: 100%;
+  background: #FF0000;
+  font-size: 44px;
+  padding: 25px;
+	text-align: center;
+  font-weight: 600;
+  border: 0px;
+  margin-top: 50px;
+	text-transform: uppercase;
+  outline: none;
+}
+
+.game_head_title{
+  font-size: 115px;
+  text-align: center;
+	margin-top: 200px;
+	margin-bottom: 0px;
+	font-weight: 700;
+  text-transform: uppercase;
+	color: #FF0000;
+  opacity: 90%;
+}
+.game_head_subtitle{
+	margin-top: 10px;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FF0000;
+	opacity: 70%;
+	font-weight: 700;
+}
+
+.console_commands{
+  color: #D2D2D2;
+  width: 35%;
+  margin: 5%;
+  display: inline;
+  background: #FF0000;
+  font-size: 44px;
+  padding: 25px;
+	text-align: center;
+  font-weight: 600;
+  border: 0px;
+	text-transform: uppercase;
+  outline: none;
+}
+.dp_title{
+  color: #D2D2D2;
+  font-size: 49px;
+  font-weight: 500;
+  margin-top: 50px;
+	margin-bottom: 50px;
+  text-align: center;
+}
+.dealers_cards, .players_cards{
+    overflow: hidden;
+    margin: auto;
+    display: inline-block;
+    height: 300px;
+}
+.results ul{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+.results li{
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.results img{
+    height: 300px;
+    display: block;
+}
+.gameConsole{
+  margin-top: 50px;
+}
+.gameConsole_commands{
+  color: #D2D2D2;
+  width: 35%;
+  margin: 5%;
+  display: inline;
+  background: #FF0000;
+  font-size: 44px;
+  padding: 25px;
+	text-align: center;
+  font-weight: 600;
+  border: 0px;
+	text-transform: uppercase;
+  outline: none;
+}
+
+.pscore{
+  position: fixed;
+  top: 0px;right: 0px;left: 0px;
+  padding: 25px;
+  height: 100px;
+  background-color: #000000;
+  border: 0px;
+  border-bottom: 2px solid #FF0000;
+}
+.pscore p{
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #D2D2D2;
+  font-weight: 600;
+  line-height: 100px;
+  text-align: center;
+  align-items: center;
+}
